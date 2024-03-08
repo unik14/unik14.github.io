@@ -1,0 +1,57 @@
+.container {
+    width:60%;
+    height:60%;
+    margin: auto;
+    padding: 40px;
+}
+
+#question-container {
+    width: 100%; /* Ensure the container takes the full width */
+    overflow: auto;
+    overflow-x: hidden; /* Hide overflow to the right */
+    text-align: right; /* Right-align the text */
+    white-space: wrap; 
+    color: #ffffff;
+}
+
+#question {
+    display: inline-block; /* Ensure the text is displayed inline */
+    color: #ffffff;
+    font-family: palatino;
+    font-size: 18;
+    line-height: 32px;
+    padding-top: 40px;
+
+}
+
+h1 {
+    width:60%;
+    height: 60%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-family: Luminari;
+    text-align: right;
+    color: #ffffff;
+}
+
+h2 {
+    width:60%;
+    height: 60%;
+    margin: auto;
+    padding: 20px;
+    font-family: Luminari;
+    text-align: right;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#myCanvas {
+    top: 0;
+    left: 0;
+    right: 0;
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+}
